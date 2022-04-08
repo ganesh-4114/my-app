@@ -12,4 +12,10 @@ export class DgfComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  name: string = "Steve";
+
+  greet(): void {
+      console.log("Hello " + this.name);
+  };
+
 }
